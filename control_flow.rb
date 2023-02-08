@@ -43,9 +43,8 @@ when "*"
   return num1 * num2
 when "/"
   return num1 / num2
-  when ""
-    return "Invalid operation!"
-end
-
+  end
+puts "Invalid operation!"
+return nil
 end
 
